@@ -426,8 +426,8 @@ p {
 # Hero
 --------------------------------------------------------------*/
 #hero {
-  background: linear-gradient(to right, rgb(0 0 0 / 32%), rgb(0 0 0 / 0%)), url(../img/home-bg.jpg) repeat scroll center center/cover;
-  height: 100vh;
+  background: url(../img/home-bg.jpg) repeat scroll center center/cover;
+  height: 115vh;
   width: 100%;
 }
 
@@ -446,6 +446,7 @@ p {
   margin-bottom: 10px;
   text-transform: uppercase;
   color: #fff;
+  text-shadow: 3px 9px 10px black;
 }
 
 .hero-content p {
@@ -466,6 +467,7 @@ p {
 .hero-content .list-social li i {
   color: #fff;
   font-size: 15px;
+  text-shadow: 3px 9px 10px black;
 }
 
 /*--------------------------------------------------------------
